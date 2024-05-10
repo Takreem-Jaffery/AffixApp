@@ -7,11 +7,11 @@ To run this app, download the file and open it in Android Studio. Then, select A
 
 ### Key Features
 - **AI Recommendations:** Find new friends based on your preferences.
-- **Chat Sessions:** Schedule future chat sessions with your friends.
+- **Chat Sessions:** Message in real time and schedule future chat sessions with your friends.
 - **Profile Management:** Set up your profile.
-- **Media Sharing:** Share images and videos in chat.
+- **Media Sharing:** Share images in chat.
 - **User Management:** Block and report users.
-- **Admin Control:** Manage reported users and view recent trends.
+- **Admin Control:** Manage reported users and view recent trends and user activity.
 
 ### Components
 - **Activities:** Android activities for different app functionalities.
