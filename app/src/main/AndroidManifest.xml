@@ -25,9 +25,6 @@
             android:name=".ui.ReportActivity"
             android:exported="false" />
         <activity
-            android:name=".AdminMain"
-            android:exported="false" />
-        <activity
             android:name=".ui.model.ActiveUser2"
             android:exported="false" />
         <activity
@@ -38,9 +35,6 @@
             android:exported="false" />
         <activity
             android:name=".ui.ReportedUser2"
-            android:exported="false" />
-        <activity
-            android:name=".ui.ReportActvity"
             android:exported="false" />
         <activity
             android:name=".ui.NewUser2"
@@ -61,22 +55,10 @@
             android:name=".ExploreFriends"
             android:exported="false" />
         <activity
-            android:name=".AttachMedia"
-            android:exported="false" />
-        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".LogInActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginUsernameActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginPhoneNumberActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginOtpActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
