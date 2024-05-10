@@ -1,0 +1,38 @@
+<resources>
+    <!--//Azwa-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">AffixApp</string>
+    <string name="select_zodiac_sign">Select zodiac sign</string>
+    <string name="select_gender">Select gender</string>
+    <string name="select_hobby">Select hobby</string>
+    <string name="select_profession">Select profession</string>
+    <string name="select_fears">Select fears</string>
+
+    <!--//Areeba-->
+    <string name="explore">Explore </string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="affix">Affix</string>
+    <string-array name="report_descriptions_array">
+        <item>Harassment or Bullying</item>
+        <item>Hate Speech</item>
+        <item>Spam</item>
+        <item>Pretending to be someone else</item>
+        <item>They may be below age of 13</item>
+        <item>Spreading Misinformation</item>
+        <item>Inappropriate Content</item>
+        <item>Illegal Activities</item>
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>User Type</item>
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+
+    <!--Imran-->
+    <string name="home_fragment">This is Home Fragment</string>
+    <string name="home">Home</string>
+    <string name="requests">Requests</string>
+    <string name="report">Report</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/dialog_bg">
+    <TextView android:id="@+id/choosetxt" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" android:text="Choose" android:textColor="@color/black" android:layout_marginTop="5dp" android:textSize="25dp" android:textStyle="bold"/>
+    <LinearLayout android:id="@+id/layoutReminder" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baseline_remind_24"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set future chat session" android:layout_marginLeft="30dp" android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layoutViewReminders" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baseline_remind_24"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="View reminders" android:layout_marginLeft="30dp" android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layoutBlock" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baseline_block_24"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block user" android:layout_marginLeft="30dp" android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layoutReport" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baseline_report_24"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Report user" android:layout_marginLeft="30dp" android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

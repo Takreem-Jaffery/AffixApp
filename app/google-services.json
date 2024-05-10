@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "223617207001",
+    "project_id": "affix-d7c8f",
+    "storage_bucket": "affix-d7c8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223617207001:android:cf56e616bcfa1af74d4cc8",
+        "android_client_info": {
+          "package_name": "com.example.affix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1zN9p0V5FxqszBp7ddnD58ppr15qa0qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223617207001:android:ee7ef0620c7221654d4cc8",
+        "android_client_info": {
+          "package_name": "com.example.affixapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1zN9p0V5FxqszBp7ddnD58ppr15qa0qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

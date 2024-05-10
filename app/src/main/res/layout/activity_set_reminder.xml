@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".SetReminder">
+    <RelativeLayout android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/white" android:padding="10dp">
+        <ImageButton android:id="@+id/back_btn" android:layout_width="32dp" android:layout_height="32dp" android:layout_alignParentStart="true" android:layout_centerVertical="true" android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/icon_back" app:tint="@color/black"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="10dp" android:layout_toEndOf="@id/back_btn" android:text="Set Reminder" android:textColor="@color/black" android:textSize="22sp" android:textStyle="bold"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" android:orientation="vertical" android:padding="10dp">
+        <EditText android:id="@+id/editTextReminderName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:background="@drawable/edit_text_rounded_corner" android:elevation="5dp" android:hint="Reminder Name" android:inputType="text" android:padding="10dp"/>
+        <EditText android:id="@+id/editTextReminderDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:background="@drawable/edit_text_rounded_corner" android:elevation="5dp" android:hint="Reminder Description" android:inputType="text" android:padding="10dp"/>
+        <Button android:id="@+id/btnTimePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="Select Time"/>
+        <Button android:id="@+id/btnDatePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="Select Date"/>
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_rounded_corner" android:text="Set Reminder" android:tint="@color/light_gray" android:layout_margin="10dp" android:id="@+id/btnSetReminder"/>
+    </LinearLayout>
+</RelativeLayout>

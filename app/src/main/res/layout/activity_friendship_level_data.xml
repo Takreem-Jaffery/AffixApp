@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main"  android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".FriendshipLevelData">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/white" android:padding="10dp" android:id="@+id/toolbar">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set FriendshipLevel Data" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/black" android:layout_marginStart="10dp" android:layout_centerVertical="true" android:layout_toEndOf="@id/back_btn"/>
+        <ImageButton android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/icon_back" android:background="?attr/selectableItemBackgroundBorderless" app:tint="@color/black" android:layout_alignParentStart="true" android:layout_centerVertical="true" android:id="@+id/back_btn" />
+    </RelativeLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="40dp" android:layout_marginTop="0dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" android:hint="Age">
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp" android:inputType="number" android:background="@drawable/edit_text_rounded_corner" android:id="@+id/age" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_below="@id/toolbar" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_below="@id/toolbar" android:layout_marginTop="20dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" android:layout_marginBottom="20dp">
+            <!-- Zodiac Sign -->
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="16dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:hint="@string/select_zodiac_sign">
+                <AutoCompleteTextView android:id="@+id/auto_complete_text_zodiac" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--  Gender Dropdown  -->
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:hint="@string/select_gender">
+                <AutoCompleteTextView android:id="@+id/auto_complete_text_gender" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--  Hobby Dropdown  -->
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:hint="@string/select_hobby">
+                <AutoCompleteTextView android:id="@+id/auto_complete_text_hobby" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--  Profession Dropdown  -->
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:hint="@string/select_profession">
+                <AutoCompleteTextView android:id="@+id/auto_complete_text_profession" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--  Fears Dropdown  -->
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:hint="@string/select_fears">
+                <AutoCompleteTextView android:id="@+id/auto_complete_text_fears" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button android:id="@+id/confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_margin="10dp" android:background="@drawable/btn_rounded_corner" android:text="Confirm Changes" android:tint="@color/light_gray"/>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

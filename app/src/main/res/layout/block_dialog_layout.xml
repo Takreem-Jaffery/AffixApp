@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:background="@drawable/biotext_shape">
+    <TextView android:id="@+id/dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Are you sure you want to block this user?" android:textSize="18sp" android:layout_centerHorizontal="true" android:layout_marginBottom="16dp" android:textAlignment="center"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/dialog_message" android:orientation="horizontal">
+        <Button android:id="@+id/dialog_button_yes" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:backgroundTint="@color/black" android:layout_marginStart="30dp" android:text="Yes"/>
+        <Button android:id="@+id/dialog_button_no" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:backgroundTint="@color/black" android:layout_marginStart="40dp" android:layout_marginEnd="30dp" android:text="No"/>
+    </LinearLayout>
+</RelativeLayout>

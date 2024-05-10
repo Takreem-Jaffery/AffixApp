@@ -1,0 +1,23 @@
+@relation users
+
+@attribute age numeric
+@attribute zodiacSign {aries,taurus,gemini,cancer,leo,virgo,libra,scorpio,aquarius,sagittarius,capricorn,pisces}
+@attribute profession {computer,engineering,arts,architecture,math,science,psychology,languages,business,other}
+@attribute hobby {sports,travel,books,gym,games,movies,music,other}
+@attribute fears {insects,heights,darkness,dentists,crowds,thunder,other}
+@attribute gender {male,female,other}
+
+@data
+53,virgo,arts,travel,other,male
+19,taurus,computer,books,dentists,female
+18,libra,engineering,music,darkness,female
+18,cancer,languages,movies,crowds,female
+55,gemini,other,gym,other,male
+18,taurus,arts,books,insects,female
+30,aquarius,arts,music,crowds,female
+34,leo,math,travel,crowds,male
+20,libra,engineering,music,insects,female
+36,libra,engineering,books,insects,male
+18,taurus,engineering,games,darkness,male
+34,leo,science,gym,dentists,male
+20,libra,computer,games,thunder,other
