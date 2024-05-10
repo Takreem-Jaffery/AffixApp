@@ -3,7 +3,7 @@
 Affix is an Android chatting application developed on Android Studio using Java and Firebase Authentication and Cloud Firestore for the database. In a world dominated by big social platforms like WhatsApp and Instagram, Affix offers a unique experience. With our AI recommendation system, you can discover new friends filtered according to your preferences using clustering algorithms. 
 
 ### Installation
-To run this app, download the file and open it in Android Studio. Then, select Affix from the dropdown menu and run the project.
+To run this app, download the file and open it in Android Studio. Then, select AffixApp from the dropdown menu and run the project.
 
 ### Key Features
 - **AI Recommendations:** Find new friends based on your preferences.
