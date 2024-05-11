@@ -23,4 +23,4 @@ To run this app, download the file and open it in Android Studio. Then, select A
 
 ### Team
 - **Team Lead:** Takreem Jaffery
-- **Team Members:** Aneeza Junaid, Areeba Mujahid, Azwa Nawaz, Imran Ahmed.
+- **Team Members:** Aneeza Junaid, Areeba Mujahid, Azwa Nawaz, Imran Ahmad.
